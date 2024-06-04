@@ -10,3 +10,6 @@ AIUtil.SetContext AppContext
 
 AIUtil("search").Search Parameter("searchValue")
 AIUtil.FindText("Cepat Tablet 10.5").CheckExists True
+
+' Close browser
+AppContext.Close
